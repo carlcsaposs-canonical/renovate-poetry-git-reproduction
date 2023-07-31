@@ -6,6 +6,8 @@ authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+
+[tool.poetry.group.integration.dependencies]
 pytest-operator-cache = {git = "https://github.com/canonical/data-platform-workflows", tag = "v3.1.0", subdirectory = "python/pytest_plugins/pytest_operator_cache"}
 
 
